@@ -41,9 +41,11 @@ namespace Tarea2
             double res;
             res = revision.Proyecto * 0.6 + (revision.Tareas * 0.8);
             if (revision.Participaciones > 5)
-            {
                 res += 0.8;
-            }
+            if (res > 10)
+                res = 10;
+            if (res < 5)
+                res = 5;
             return res;
         }
     }
