@@ -1,5 +1,5 @@
 ﻿/*
-Programam que muestra numeros naturales hasta el numero ingresado por el usuario.
+Programa que muestra numeros naturales hasta el numero ingresado por el usuario.
 En este programa se considera al dero como numero natural
 */
 
